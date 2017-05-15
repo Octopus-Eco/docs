@@ -22,4 +22,7 @@
 	</profiles>
 ```
 ## 配置完成后即可在maven或eclipse maven插件上使用命令来为自己的java project进行sonar代码检查了
-### 命令如下： mvn verify sonar:sonar
+### 命令如下： 
+``` maven
+	mvn verify sonar:sonar
+```
